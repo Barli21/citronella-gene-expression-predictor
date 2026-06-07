@@ -232,3 +232,4 @@ data/external/*
 reports/figures/*.png
 reports/figures/*.pdf
 reports/figures/*.svg
+.vscode/
