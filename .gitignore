@@ -76,7 +76,8 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -216,3 +217,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+####
+# Data files
+data/raw/*
+data/processed/*
+data/external/*
+
+# Jupyter
+
+
+# Reports (keep structure, ignore generated figures)
+reports/figures/*.png
+reports/figures/*.pdf
+reports/figures/*.svg
